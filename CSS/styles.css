@@ -1,0 +1,329 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.title-inicial{
+    margin-left: 600px;
+    margin-bottom: 36px;
+}
+
+.flex-container {
+   width: 1000px;
+   margin: 0 auto;
+}
+
+.flex-container, .nav-links, .nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav {
+   height: 80px;
+   font-family: cursive;
+   background-color: rgb(8, 8, 8);
+   color: #fff;
+   margin-bottom: 30px;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.contenedor-presentacion {
+    display: flex;
+    margin-left: 180px;
+    padding: 20px;
+    width: 200px;
+    height: 309px;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.icono {
+    
+    width: 80px;
+
+}
+
+.cuerpo {
+    padding: 30px 15px;
+    border: 2px solid rgb(190, 188, 188);
+    width: 200px;
+    height: 309% px;
+}
+
+.iconos {
+    width: 10px;
+}
+
+.iconoss {
+    width: 20px;
+}
+
+.ubicacion {
+    margin-bottom: 10px;
+}
+
+.edit-profile {
+    margin-top: 10px;
+
+
+}
+
+.edit {
+    color: blue;
+}
+
+.contenedor-padre {
+    display: flex;
+    height: 900px;
+
+
+}
+
+.contenedor-izquierdo {
+
+
+    flex: 2;
+    flex-direction: column;
+
+
+
+}
+
+.contenedor-derecho {
+
+    flex-direction: column;
+    background-color: white;
+    flex: 2;
+
+
+
+
+}
+
+.Contenedor-educacion {
+    margin-left: 190px;
+
+    display: flex;
+    background-color: white;
+    padding: 5px;
+
+
+}
+
+.titulo-educacion {
+    background-color: grey;
+    font-size: medium;
+    font-family: cursive;
+    padding: 5px;
+    color: white;
+}
+
+.full {
+    color: black;
+}
+
+.fecha {
+    color: grey;
+
+}
+
+.aptitudes-M {
+    color: black;
+}
+
+.cuerpo-2 {
+    padding: 30px 40px;
+    border: 2px solid rgb(190, 188, 188);
+
+}
+
+.card-body {
+    padding: 20px;
+    
+}
+
+
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.info-container {
+    display: flex;
+    height: 90px;
+    width: 900px;
+    gap: px;
+    
+    
+   
+}
+
+.btn2 {
+    height: 30px;
+    width: 90px;
+    color: #020202;
+    background-color: #ffe868;
+    border-style: solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 5px 5px #0a0a0a;
+    cursor: pointer;
+}
+.btn3 {
+    height: 30px;
+    width: 90px;
+    color: #020202;
+    background-color: #ffe868;
+    border-style: solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 5px 5px #0a0a0a;
+    cursor: pointer;
+}
+.btn4 {
+    height: 30px;
+    width: 90px;
+    color: #020202;
+    background-color: #ffe868;
+    border-style: solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 5px 5px #0a0a0a;
+    cursor: pointer;
+    
+}
+
+
+.user-card .card-header {
+    height: 200px;
+    margin-bottom: 70px;
+    display: block;
+}
+
+.card-footer {
+    border-top: 2px solid #999;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.dates {
+    color: #777;
+}
+
+.card-list {
+    display: flex;
+    padding: 0 20px;
+    padding-top: 20px;
+    list-style-type: none;
+    
+}
+
+.card-list-item, 
+.card-list-item > * {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card-list-item {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.card-list-item.start {
+    display: flex;
+            
+}
+
+.avatar-s, .icon {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon {
+    height: 35px;
+}
+
+.icon, .btn {
+    cursor: pointer;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.badge {
+    font-size: 1rem;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    background-color: #999;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.extra {
+    background-color: blue;
+}
+.card {
+    background-color: #fff;
+    border: 2px solid #999;
+    
+    border-radius: 5px;
+    font-size: 1.2rem;
+    height: 265px;
+    margin-top: 18px;
+    margin-right: 180px;
+    padding: 20px;
+    width: 700px;
+    
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Jone{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+    margin-left: 200px;
+}
+
+.container-btn-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    cursor: pointer;
+}
